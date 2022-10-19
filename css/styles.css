@@ -57,9 +57,6 @@ button {
 /* Header */
 
 .header {
-    width: 1600px;
-    margin: 0 auto;
-
     background-color: var(--secondary-color);
     border-bottom: 1px solid #ECECEC;
 }
@@ -189,8 +186,6 @@ button {
 /* Description section */
 
 .description {
-    max-width: 1600px;
-    margin: 0 auto;
     padding-bottom: 0;
 
     background-color: var(--secondary-color);
@@ -230,9 +225,6 @@ button {
 /* Occupation section */
 
 .occupation {
-    max-width: 1600px;
-    margin: 0 auto;
-
     background-color: var(--secondary-color);
 }
 
@@ -258,9 +250,6 @@ button {
 /* Team section */
 
 .team {
-    max-width: 1600px;
-    margin: 0 auto;
-
     text-align: center;
     background-color: var(--backgroundline-color);
 }
@@ -313,8 +302,6 @@ button {
 /* Portfolio section */
 
 .portfolio {
-    max-width: 1600px;
-    margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
 
@@ -403,10 +390,6 @@ button {
 /* Footer */
 
 .footer {
-    max-width: 1600px;
-    margin: 0 auto;
-    height: 252px;
-
     background-color: var(--common-color);
 }
 
@@ -417,6 +400,7 @@ button {
 
 .footer-address {
     margin-top: 20px;
+    padding-bottom: 60px;
 
     font-style: normal;
 }
