@@ -12,9 +12,6 @@
 }
 
 body {
-    width: 1600px;
-    margin: 0 auto;
-
     font-family: var(--main-fon);
     color: var(--primary-color);
 }
@@ -52,9 +49,17 @@ button {
     margin: -1px;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Header */
 
 .header {
+    width: 1600px;
+    margin: 0 auto;
+
     background-color: var(--secondary-color);
     border-bottom: 1px solid #ECECEC;
 }
@@ -143,6 +148,8 @@ button {
 /* Hero section */
 
 .hero {
+    max-width: 1600px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -151,9 +158,10 @@ button {
 }
 
 .hero-title {
-    margin: 0 452px 30px 452px;
     width: 696px;
-
+    height: 120px;
+    margin: 0 452px 30px;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -181,7 +189,9 @@ button {
 /* Description section */
 
 .description {
-    padding-top: 94px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-bottom: 0;
 
     background-color: var(--secondary-color);
 }
@@ -220,8 +230,8 @@ button {
 /* Occupation section */
 
 .occupation {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0 auto;
 
     background-color: var(--secondary-color);
 }
@@ -248,8 +258,8 @@ button {
 /* Team section */
 
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0 auto;
 
     text-align: center;
     background-color: var(--backgroundline-color);
@@ -303,6 +313,8 @@ button {
 /* Portfolio section */
 
 .portfolio {
+    max-width: 1600px;
+    margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
 
@@ -391,6 +403,8 @@ button {
 /* Footer */
 
 .footer {
+    max-width: 1600px;
+    margin: 0 auto;
     height: 252px;
 
     background-color: var(--common-color);
