@@ -21,6 +21,11 @@ button {
     font-family: inherit;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 /* Utilities */
 
 .container {
@@ -155,9 +160,9 @@ button {
 }
 
 .hero-title {
+    margin: 0 auto 30px;
     width: 696px;
     height: 120px;
-    margin: 0 452px 30px;
     
     font-weight: 900;
     font-size: 44px;
@@ -200,7 +205,6 @@ button {
 }
 
 .description-title {
-    margin-top: 0;
     margin-bottom: 10px;
 
     font-size: 14px;
@@ -211,8 +215,6 @@ button {
 
 .description-text {
     width: 270px;
-    margin-top: 0;
-    margin-bottom: 0px;
 
     font-size: 14px;
     line-height: 1.71;
@@ -230,7 +232,6 @@ button {
 
 .occupation-list {
     display: flex;
-    height: 294px;
 }
 
 .occupation-item + .occupation-item {
@@ -238,13 +239,16 @@ button {
 }
 
 .occupation-title {
-    margin-top: 0;
     margin-bottom: 50px;
 
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.occupation-img {
+    display: block;
 }
 
 /* Team section */
@@ -255,7 +259,6 @@ button {
 }
 
 .team-title {
-    margin-top: 0;
     margin-bottom: 50px;
 
     font-size: 36px;
@@ -279,7 +282,6 @@ button {
 }
 
 .team-name {
-    margin-top: 0;
     margin: 30px 0 10px 0;
 
     font-weight: 500;
@@ -289,7 +291,6 @@ button {
 }
 
 .team-text {
-    margin: 0;
     margin-bottom: 30px;
 
     font-size: 16px;
@@ -365,7 +366,6 @@ button {
 }
 
 .portfolio-title {
-    margin: 0;
     padding: 20px 24px 4px;
 
     font-size: 18px;
@@ -378,7 +378,6 @@ button {
 .portfolio-text {
     padding-left: 24px;
     padding-bottom: 20px;
-    margin: 0;
 
     font-size: 16px;
     line-height: 1.87;
